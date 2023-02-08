@@ -117,10 +117,10 @@ nav .links .icon span:nth-child(2) {
     width: 65%;
     transition-duration: var(--main-duration, 0.3s);
 }
-nav .links:hover span:nth-child(2) {
+nav .links.open-menu span:nth-child(2) {
     width: 100%;
 }
-nav .links:hover ul {
+nav .links.open-menu ul {
     display: block;
 }
 nav .links ul {
